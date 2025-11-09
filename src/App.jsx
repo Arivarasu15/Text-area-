@@ -6,12 +6,12 @@ function CharacterCounter() {
 
   return (
     <div className="flex items-center justify-center min-h-screen"
-       style={{ backgroundImage: `url(${bgImg})` }} >
+      style={{ backgroundImage: `url(${bgImg})` }} >
       <div className="shadow-lg rounded-2xl p-6 w-96"
-      style={{ backgroundColor: "rgba(116, 67, 37, 0.5)" }}>
-        <h2 className="text-lg font-semibold text-gray-950 mb-2">
+        style={{ backgroundColor: "rgba(116, 67, 37, 0.5)" }}>
+        <h2 className="text-lg font-semibold text-gray-900 mb-2">
           Type your message{" "}
-          <span className="text-gray-850 text-sm">( 200 characters max )</span>
+          <span className="text-gray-800 text-sm">( 200 characters max )</span>
         </h2>
 
         <textarea
